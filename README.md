@@ -35,6 +35,7 @@ mvn spring-boot:run
 - User: sa
 - Password: (пусто)
 
-  <img width="2803" height="2684" alt="схема" src="https://github.com/user-attachments/assets/9ed8453f-4c51-4624-a3d4-662b9e8ff2d7" />
+## Схема БД
+<img width="2803" height="2684" alt="схема" src="https://github.com/user-attachments/assets/9ed8453f-4c51-4624-a3d4-662b9e8ff2d7" />
 
 
