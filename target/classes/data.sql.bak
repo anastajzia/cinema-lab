@@ -1,0 +1,14 @@
+-- Добавляем режиссёров
+INSERT INTO directors (id, name) VALUES (1, 'Christopher Nolan');
+INSERT INTO directors (id, name) VALUES (2, 'Quentin Tarantino');
+
+-- Добавляем жанры
+INSERT INTO genres (id, name) VALUES (1, 'Action');
+INSERT INTO genres (id, name) VALUES (2, 'Drama');
+INSERT INTO genres (id, name) VALUES (3, 'Comedy');
+
+-- Добавляем фильмы
+INSERT INTO movies (id, title, duration, release_year, director_id, genre_id)
+VALUES (1, 'Inception', 148, 2010, 1, 1);
+INSERT INTO movies (id, title, duration, release_year, director_id, genre_id)
+VALUES (2, 'Pulp Fiction', 154, 1994, 2, 2);
